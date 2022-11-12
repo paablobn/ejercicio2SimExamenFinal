@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/lbNombreProductoAlert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="TextView"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/txtCantidadProductoAlert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:hint="Cantidad Producto"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/txtPrecioproductoAlert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:hint="Precio Producto"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/btnEditarProductoAlert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="EDITAR" />
+
+</LinearLayout>
